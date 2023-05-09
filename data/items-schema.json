@@ -1,0 +1,27 @@
+{
+	"name": "test",
+	"description": "test",
+	"tags": ["test"],
+	"comments": [
+		{
+			"author": "test",
+			"text": "test"
+		}
+	],
+	"transactions": [
+		{
+			"name": "test",
+			"price": "test",
+			"date": "test"
+		}
+	],
+	"sizes": [
+		{
+			"name": "test",
+			"width": "test",
+			"heigth": "test",
+			"depth": "test"
+		}
+	],
+	"count": "2"
+}

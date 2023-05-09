@@ -1,26 +1,15 @@
 {
-	"name": "test",
-	"description": "test",
-	"tags": ["test"],
-	"comments": [
+	"items": [
 		{
-			"author": "test",
-			"text": "test"
-		}
-	],
-	"transactions": [
-		{
-			"name": "test",
-			"price": "test",
-			"date": "test"
-		}
-	],
-	"sizes": [
-		{
-			"name": "test",
-			"width": "test",
-			"heigth": "test",
-			"depth": "test"
+			"name": "Plastic box",
+			"description": "Used for storing metal parts ",
+			"tags": ["Container "],
+			"comments": [{ "author": "Me", "text": "Screws, bits" }],
+			"transactions": [{ "name": "", "price": "", "date": "" }],
+			"sizes": [
+				{ "name": "Size", "width": "24", "height": "10", "depth": "15" }
+			],
+			"count": "2"
 		}
 	]
 }
