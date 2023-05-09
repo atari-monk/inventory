@@ -1,0 +1,168 @@
+Question:
+
+Can you create exprees server with ejs form that will take data from user and save it in 
+file with this format ?
+
+{
+	"name": "test",
+	"description": "test",
+	"tags": ["test"],
+	"comments": [
+		{
+			"author": "test",
+			"text": "test"
+		}
+	],
+	"transactions": [
+		{
+			"name": "test",
+			"price": "test",
+			"date": "test"
+		}
+	],
+	"sizes": [
+		{
+			"name": "test",
+			"width": "test",
+			"heigth": "test",
+			"depth": "test"
+		}
+	]
+}
+
+Answear:
+
+Sure, I can guide you through the steps to create an Express server with EJS form that will take data from the user and save it in a file with the given format.
+
+Here are the steps to achieve this:
+
+Set up a new Node.js project and install the required packages using the following command:
+bash
+Copy code
+npm init -y
+npm install express ejs body-parser fs --save
+Create a new file called app.js and add the following code to it:
+javascript
+Copy code
+const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+
+const app = express();
+
+// set EJS as the view engine
+app.set('view engine', 'ejs');
+
+// middleware to parse the request body
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// render the form page
+app.get('/', (req, res) => {
+  res.render('form');
+});
+
+// handle the form submission
+app.post('/', (req, res) => {
+  const data = {
+    name: req.body.name,
+    description: req.body.description,
+    tags: req.body.tags.split(','),
+    comments: [
+      {
+        author: req.body.author,
+        text: req.body.comment
+      }
+    ],
+    transactions: [
+      {
+        name: req.body.transactionName,
+        price: req.body.price,
+        date: req.body.date
+      }
+    ],
+    sizes: [
+      {
+        name: req.body.sizeName,
+        width: req.body.width,
+        height: req.body.height,
+        depth: req.body.depth
+      }
+    ]
+  };
+
+  // write the data to a file
+  fs.writeFile('data.json', JSON.stringify(data), (err) => {
+    if (err) throw err;
+    console.log('Data saved to file');
+    res.redirect('/');
+  });
+});
+
+// start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+Create a new file called form.ejs in a views directory and add the following code to it:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="post">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+      </div>
+      <div>
+        <label for="tags">Tags:</label>
+        <input type="text" id="tags" name="tags">
+      </div>
+      <div>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author">
+      </div>
+      <div>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea>
+      </div>
+      <div>
+        <label for="transactionName">Transaction Name:</label>
+        <input type="text" id="transactionName" name="transactionName">
+      </div>
+      <div>
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+      </div>
+      <div>
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date">
+      </div>
+      <div>
+        <label for="sizeName">Size Name:</label>
+        <input type="text" id="sizeName" name="sizeName">
+      </div>
+      <div>
+        <label for="width">Width:</label>
+        <input type="text" id="width" name="width">
+      </div>
+      <div>
+        <label for="height">Height:</label>
+        <input type="text" id="height" name="height">
+      </div>
+      <div>
+        <label for="depth">Depth:</label>
+        <input type="text" id="depth" name="depth">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
