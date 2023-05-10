@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 // handle the form submission
 app.post("/", (req, res) => {
-	const data = {
+	const newItem = {
 		id: req.body.id,
 		name: req.body.name,
 		description: req.body.description,

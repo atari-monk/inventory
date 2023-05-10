@@ -22,7 +22,7 @@
 			"id": "2",
 			"name": "briefs",
 			"description": "boxer shorts type",
-			"tags": ["underwear, trip2023"],
+			"tags": ["underwear", "trip23"],
 			"notes": [
 				{ "title": "brand", "text": "ultimate standard" },
 				{ "title": "color", "text": "grey, dark blue" }
@@ -37,7 +37,7 @@
 			"id": "3",
 			"name": "briefs",
 			"description": "",
-			"tags": ["underwear, trip2023"],
+			"tags": ["underwear", "trip23"],
 			"notes": [
 				{
 					"title": "brand",
@@ -65,13 +65,73 @@
 			"id": "4",
 			"name": "tshirts",
 			"description": "",
-			"tags": ["clothing", " trip2023"],
+			"tags": ["clothing", "trip23"],
 			"notes": [{ "title": "", "text": "" }],
 			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
 			"sizes": [
 				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
 			],
 			"quantities": [{ "name": "quantity ", "count": "9" }]
+		},
+		{
+			"id": "5",
+			"name": "soap",
+			"description": "",
+			"tags": ["hygiene", "trip23"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "size", "width": "9", "height": "5", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "2" }]
+		},
+		{
+			"id": "6",
+			"name": "toothpaste",
+			"description": "",
+			"tags": ["hygiene", "trip23"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "6", "height": "17", "depth": "", "unit": "Cm" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "1" }]
+		},
+		{
+			"id": "7",
+			"name": "condoms",
+			"description": "",
+			"tags": ["hygiene", "trip23"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "2" }]
+		},
+		{
+			"id": "8",
+			"name": "sachol",
+			"description": "",
+			"tags": ["hygiene", "trip23"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "2" }]
+		},
+		{
+			"id": "9",
+			"name": "dental floss",
+			"description": "",
+			"tags": ["hygiene", "trip23"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "1" }]
 		}
 	]
 }
