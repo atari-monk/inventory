@@ -21,10 +21,10 @@ app.post("/", (req, res) => {
 		name: req.body.name,
 		description: req.body.description,
 		tags: req.body.tags.split(","),
-		comments: [
+		notes: [
 			{
-				author: req.body.author,
-				text: req.body.comment,
+				title: req.body.title,
+				text: req.body.note,
 			},
 		],
 		transactions: [
@@ -32,6 +32,7 @@ app.post("/", (req, res) => {
 				name: req.body.transactionName,
 				price: req.body.price,
 				date: req.body.date,
+				currency: req.body.currency,
 			},
 		],
 		sizes: [
@@ -40,6 +41,13 @@ app.post("/", (req, res) => {
 				width: req.body.width,
 				height: req.body.height,
 				depth: req.body.depth,
+				unit: req.body.unit,
+			},
+		],
+		quantities: [
+			{
+				name: req.body.quantityname,
+				count: req.body.quantityvalue,
 			},
 		],
 	};

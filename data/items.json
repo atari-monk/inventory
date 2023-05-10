@@ -1,15 +1,73 @@
 {
 	"items": [
 		{
-			"name": "Plastic box",
-			"description": "Used for storing metal parts ",
-			"tags": ["Container "],
-			"comments": [{ "author": "Me", "text": "Screws, bits" }],
-			"transactions": [{ "name": "", "price": "", "date": "" }],
+			"name": "plastic box",
+			"description": "",
+			"tags": ["container"],
+			"notes": [{ "title": "use", "text": "storing metal parts screws, bits" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
 			"sizes": [
-				{ "name": "Size", "width": "24", "height": "10", "depth": "15" }
+				{
+					"name": "size",
+					"width": "24",
+					"height": "10",
+					"depth": "15",
+					"unit": "cm"
+				}
 			],
-			"count": "2"
+			"quantities": [{ "name": "quantity", "value": "2" }]
+		},
+		{
+			"name": "briefs",
+			"description": "boxer shorts type",
+			"tags": ["underwear, trip2023"],
+			"notes": [
+				{ "title": "brand", "text": "ultimate standard" },
+				{ "title": "color", "text": "grey, dark blue" }
+			],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "38", "height": "28", "depth": "", "unit": "cm" }
+			],
+			"quantities": [{ "name": "quantity", "value": "6" }]
+		},
+		{
+			"name": "briefs",
+			"description": "",
+			"tags": ["underwear, trip2023"],
+			"notes": [
+				{
+					"title": "brand",
+					"text": "moraj collection, new basic"
+				},
+				{
+					"title": "color",
+					"text": "dark grey, dark blue"
+				}
+			],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "32", "height": "23", "depth": "", "unit": "cm" }
+			],
+			"quantities": [
+				{ "name": "quantity", "value": "4" },
+				{
+					"name": "moraj collection",
+					"value": "3"
+				},
+				{ "name": "new basic", "value": "1" }
+			]
+		},
+		{
+			"name": "tshirts",
+			"description": "",
+			"tags": ["clothing", " trip2023"],
+			"notes": [{ "title": "", "text": "" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "9" }]
 		}
 	]
 }

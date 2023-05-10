@@ -1,27 +1,29 @@
 {
-	"name": "test",
-	"description": "test",
-	"tags": ["test"],
-	"comments": [
+	"name": "",
+	"description": "",
+	"tags": [""],
+	"notes": [
 		{
-			"author": "test",
-			"text": "test"
+			"title": "",
+			"text": ""
 		}
 	],
 	"transactions": [
 		{
-			"name": "test",
-			"price": "test",
-			"date": "test"
+			"name": "",
+			"price": "",
+			"date": "",
+			"currency": ""
 		}
 	],
 	"sizes": [
 		{
-			"name": "test",
-			"width": "test",
-			"heigth": "test",
-			"depth": "test"
+			"name": "",
+			"width": "",
+			"heigth": "",
+			"depth": "",
+			"unit": ""
 		}
 	],
-	"count": "2"
+	"quantities": [{ "name": "", "value": "" }]
 }
