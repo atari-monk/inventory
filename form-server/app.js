@@ -55,11 +55,27 @@ app.post("/", (req, res) => {
 		],
 	};
 
-	// write the data to a file
-	fs.writeFile("data.json", JSON.stringify(data), (err) => {
+	// read the existing data from file
+	fs.readFile("data.json", (err, fileData) => {
 		if (err) throw err;
-		console.log("Data saved to file");
-		res.redirect("/");
+
+		let data = {};
+		if (fileData.length !== 0) {
+			data = JSON.parse(fileData);
+		}
+
+		// append the new item to the existing data
+		if (!data.items) {
+			data.items = [];
+		}
+		data.items.push(newItem);
+
+		// write the updated data back to the file
+		fs.writeFile("data.json", JSON.stringify(data), (err) => {
+			if (err) throw err;
+			console.log("Data saved to file");
+			res.redirect("/");
+		});
 	});
 });
 
