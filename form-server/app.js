@@ -54,6 +54,12 @@ app.post("/", (req, res) => {
 				count: req.body.quantityvalue,
 			},
 		],
+		containers: [
+			{
+				id: req.body.containerid,
+				subcontainer: req.body.subcontainer,
+			},
+		],
 	};
 
 	// read the existing data from file

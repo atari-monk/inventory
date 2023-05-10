@@ -26,5 +26,6 @@
 			"unit": ""
 		}
 	],
-	"quantities": [{ "name": "", "value": "" }]
+	"quantities": [{ "name": "", "value": "" }],
+	"containers": [{ "id": "", "subcontainer": "" }]
 }
