@@ -10,6 +10,9 @@ app.set("view engine", "ejs");
 // middleware to parse the request body
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// serve static files from the "public" directory
+app.use(express.static("public"));
+
 // render the form page
 app.get("/", (req, res) => {
 	res.render("form");
