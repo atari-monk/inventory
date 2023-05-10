@@ -150,6 +150,19 @@
 			],
 			"quantities": [{ "name": "quantity ", "count": "1" }],
 			"containers": [{}]
+		},
+		{
+			"id": "11",
+			"name": "sweatshirts",
+			"description": "",
+			"tags": [""],
+			"notes": [{ "title": "color ", "text": "grey, orange" }],
+			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
+			"sizes": [
+				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
+			],
+			"quantities": [{ "name": "quantity ", "count": "2" }],
+			"containers": [{ "id": "10", "subcontainer": "main pocket " }]
 		}
 	]
 }
