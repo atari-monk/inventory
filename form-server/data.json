@@ -1,168 +1,354 @@
 {
-	"items": [
-		{
-			"id": "1",
-			"name": "plastic box",
-			"description": "",
-			"tags": ["container"],
-			"notes": [{ "title": "use", "text": "storing metal parts screws, bits" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{
-					"name": "size",
-					"width": "24",
-					"height": "10",
-					"depth": "15",
-					"unit": "cm"
-				}
-			],
-			"quantities": [{ "name": "quantity", "value": "2" }]
-		},
-		{
-			"id": "2",
-			"name": "briefs",
-			"description": "boxer shorts type",
-			"tags": ["underwear", "trip23"],
-			"notes": [
-				{ "title": "brand", "text": "ultimate standard" },
-				{ "title": "color", "text": "grey, dark blue" }
-			],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "38", "height": "28", "depth": "", "unit": "cm" }
-			],
-			"quantities": [{ "name": "quantity", "value": "6" }],
-			"containers": [{ "id": "10", "subcontainer": "main pocket" }]
-		},
-		{
-			"id": "3",
-			"name": "briefs",
-			"description": "",
-			"tags": ["underwear", "trip23"],
-			"notes": [
-				{ "title": "brand", "text": "moraj collection, new basic" },
-				{ "title": "color", "text": "dark grey, dark blue" }
-			],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "32", "height": "23", "depth": "", "unit": "cm" }
-			],
-			"quantities": [
-				{ "name": "quantity", "value": "4" },
-				{ "name": "moraj collection", "value": "3" },
-				{ "name": "new basic", "value": "1" }
-			],
-			"containers": [{ "id": "10", "subcontainer": "main pocket" }]
-		},
-		{
-			"id": "4",
-			"name": "tshirts",
-			"description": "",
-			"tags": ["clothing", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "9" }],
-			"containers": [{ "id": "10", "subcontainer": "main pocket" }]
-		},
-		{
-			"id": "5",
-			"name": "soap",
-			"description": "",
-			"tags": ["hygiene", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "size", "width": "9", "height": "5", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "2" }],
-			"containers": [{ "id": "10", "subcontainer": "front pocket" }]
-		},
-		{
-			"id": "6",
-			"name": "toothpaste",
-			"description": "",
-			"tags": ["hygiene", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "6", "height": "17", "depth": "", "unit": "Cm" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "1" }],
-			"containers": [{ "id": "10", "subcontainer": "front pocket" }]
-		},
-		{
-			"id": "7",
-			"name": "condoms",
-			"description": "",
-			"tags": ["hygiene", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "2" }],
-			"containers": [{ "id": "10", "subcontainer": "front pocket" }]
-		},
-		{
-			"id": "8",
-			"name": "sachol",
-			"description": "",
-			"tags": ["hygiene", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "2" }],
-			"containers": [{ "id": "10", "subcontainer": "front pocket" }]
-		},
-		{
-			"id": "9",
-			"name": "dental floss",
-			"description": "",
-			"tags": ["hygiene", "trip23"],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "1" }],
-			"containers": [{ "id": "10", "subcontainer": "front pocket" }]
-		},
-		{
-			"id": "10",
-			"name": "backpack",
-			"description": "wheeled",
-			"tags": ["container "],
-			"notes": [{ "title": "", "text": "" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{
-					"name": "size",
-					"width": "35",
-					"height": "64",
-					"depth": "25",
-					"unit": "cm"
-				}
-			],
-			"quantities": [{ "name": "quantity ", "count": "1" }],
-			"containers": [{}]
-		},
-		{
-			"id": "11",
-			"name": "sweatshirts",
-			"description": "",
-			"tags": [""],
-			"notes": [{ "title": "color ", "text": "grey, orange" }],
-			"transactions": [{ "name": "", "price": "", "date": "", "currency": "" }],
-			"sizes": [
-				{ "name": "", "width": "", "height": "", "depth": "", "unit": "" }
-			],
-			"quantities": [{ "name": "quantity ", "count": "2" }],
-			"containers": [{ "id": "10", "subcontainer": "main pocket " }]
-		}
-	]
+    "items": [
+        {
+            "id": "1",
+            "name": "plastic box",
+            "description": "",
+            "tags": ["container"],
+            "notes": [
+                { "title": "use", "text": "storing metal parts screws, bits" }
+            ],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "size",
+                    "width": "24",
+                    "height": "10",
+                    "depth": "15",
+                    "unit": "cm"
+                }
+            ],
+            "quantities": [{ "name": "quantity", "value": "2" }]
+        },
+        {
+            "id": "2",
+            "name": "briefs",
+            "description": "boxer shorts type",
+            "tags": ["underwear", "trip23"],
+            "notes": [
+                { "title": "brand", "text": "ultimate standard" },
+                { "title": "color", "text": "grey, dark blue" }
+            ],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "38",
+                    "height": "28",
+                    "depth": "",
+                    "unit": "cm"
+                }
+            ],
+            "quantities": [{ "name": "quantity", "value": "6" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket" }]
+        },
+        {
+            "id": "3",
+            "name": "briefs",
+            "description": "",
+            "tags": ["underwear", "trip23"],
+            "notes": [
+                { "title": "brand", "text": "moraj collection, new basic" },
+                { "title": "color", "text": "dark grey, dark blue" }
+            ],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "32",
+                    "height": "23",
+                    "depth": "",
+                    "unit": "cm"
+                }
+            ],
+            "quantities": [
+                { "name": "quantity", "value": "4" },
+                { "name": "moraj collection", "value": "3" },
+                { "name": "new basic", "value": "1" }
+            ],
+            "containers": [{ "id": "10", "subcontainer": "main pocket" }]
+        },
+        {
+            "id": "4",
+            "name": "tshirts",
+            "description": "",
+            "tags": ["clothing", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "9" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket" }]
+        },
+        {
+            "id": "5",
+            "name": "soap",
+            "description": "",
+            "tags": ["hygiene", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "size",
+                    "width": "9",
+                    "height": "5",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "2" }],
+            "containers": [{ "id": "10", "subcontainer": "front pocket" }]
+        },
+        {
+            "id": "6",
+            "name": "toothpaste",
+            "description": "",
+            "tags": ["hygiene", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "6",
+                    "height": "17",
+                    "depth": "",
+                    "unit": "Cm"
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "1" }],
+            "containers": [{ "id": "10", "subcontainer": "front pocket" }]
+        },
+        {
+            "id": "7",
+            "name": "condoms",
+            "description": "",
+            "tags": ["hygiene", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "2" }],
+            "containers": [{ "id": "10", "subcontainer": "front pocket" }]
+        },
+        {
+            "id": "8",
+            "name": "sachol",
+            "description": "",
+            "tags": ["hygiene", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "2" }],
+            "containers": [{ "id": "10", "subcontainer": "front pocket" }]
+        },
+        {
+            "id": "9",
+            "name": "dental floss",
+            "description": "",
+            "tags": ["hygiene", "trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "1" }],
+            "containers": [{ "id": "10", "subcontainer": "front pocket" }]
+        },
+        {
+            "id": "10",
+            "name": "backpack",
+            "description": "wheeled",
+            "tags": ["container "],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "size",
+                    "width": "35",
+                    "height": "64",
+                    "depth": "25",
+                    "unit": "cm"
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "1" }],
+            "containers": [{}]
+        },
+        {
+            "id": "11",
+            "name": "sweatshirts",
+            "description": "",
+            "tags": [""],
+            "notes": [{ "title": "color ", "text": "grey, orange" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "2" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket " }]
+        },
+        {
+            "id": "12",
+            "name": "socks",
+            "description": "for summer ",
+            "tags": ["trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [
+                { "name": "long", "count": "7" },
+                { "name": "short", "count": "6" }
+            ],
+            "containers": [{ "id": "10", "subcontainer": "main pocket " }]
+        },
+        {
+            "id": "13",
+            "name": "short pants",
+            "description": "",
+            "tags": ["trip23"],
+            "notes": [{ "title": "todo", "text": "take one on me" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "4" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket " }]
+        },
+        {
+            "id": "14",
+            "name": "pants",
+            "description": "",
+            "tags": ["trip23"],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "light jeans", "count": "1" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket " }]
+        },
+        {
+            "id": "15",
+            "name": "hat",
+            "description": "baseball type, dark blue",
+            "tags": [""],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "quantity ", "count": "1" }],
+            "containers": [{ "id": "10", "subcontainer": "main pocket " }]
+        },
+        {
+            "id": "16",
+            "name": "box id 21 food ",
+            "description": "yellow beans kg, kasza gryczana, mąka ziem, ryż, mąka 1kg",
+            "tags": [""],
+            "notes": [{ "title": "", "text": "" }],
+            "transactions": [
+                { "name": "", "price": "", "date": "", "currency": "" }
+            ],
+            "sizes": [
+                {
+                    "name": "",
+                    "width": "",
+                    "height": "",
+                    "depth": "",
+                    "unit": ""
+                }
+            ],
+            "quantities": [{ "name": "", "count": "" }],
+            "containers": [{ "id": "", "subcontainer": "" }]
+        }
+    ]
 }
